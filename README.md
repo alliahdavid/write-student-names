@@ -1,35 +1,43 @@
-# Write Student Names
+# Write Student Names (C++)
 
-A simple C++ program to create a text file and save a list of student names. This program demonstrates basic file handling in C++.
+A simple program that prompts the user to enter student names and saves them to a text file (`students.txt`). This project was originally created as a class assignment and later refined into a portfolio project for GitHub. This is Part 1 of a two-part project, where Part 2 will append additional student names to the same file.
 
 ## Description
 
-This program prompts the user to enter five student names and writes them to a text file called `students.txt`. It is designed to teach beginners how to work with file streams (`ofstream`) and handle user input in C++. This project is Part 1 of a two-part series, where Part 2 will append additional student names to the same file.
+The program asks the user to enter:
+- Five student names
+
+It then:
+- Writes the names to a file called `students.txt`
+
+This project is useful for learning:
+- Basic C++ syntax
+- Input/Output operations
+- File handling using `ofstream`
+- Loops and user input
 
 ## Getting Started
 
 ### Dependencies
 
-* Any C++ compiler (e.g., g++, clang++, MSVC, Dev-C++)  
-* Compatible with Windows, Linux, or macOS
+- C++ compiler (e.g., g++, clang++, MSVC, or Dev-C++)
+- Works on Windows, Linux, or macOS
 
 ### Installing
 
-* Clone the repository or download the `write_names.cpp` file.  
-* Open it in your preferred IDE or text editor (e.g., VS Code, Code::Blocks, Dev-C++).  
+1. Clone the repository or download the `.cpp` file.
+2. Open the file in your preferred IDE (Code::Blocks, Visual Studio, or VSCode) or text editor.
 
 ### Executing Program
 
-* Compile the program using your C++ compiler.  
-* Run the executable and follow the prompts to enter student names.
+To compile and run using **g++**:
 
-```bash
 g++ write_names.cpp -o write_names
 ./write_names
 
-### Authors
+## Authors
 -Alliah David
--[@alliahdavid] (https://github.com/alliahdavid)
+-[@alliahdavid](https://github.com/alliahdavid)
 
 ## Version History
 * 0.1
@@ -41,4 +49,3 @@ This project is licensed under the [MIT] License - see the LICENSE.md file for d
 ## Acknowledgements
 * Inspired by Guam Community College C++ Programming
 * [https://www.cplusplus.com] for syntax references
- 
