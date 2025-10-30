@@ -32,8 +32,10 @@ This project is useful for learning:
 
 To compile and run using **g++**:
 
-g++ write_names.cpp -o write_names
-./write_names
+```bash
+g++ write_student_names.cpp -o write_student_names
+./write_student_names
+```
 
 ## Authors
 -Alliah David
@@ -42,6 +44,7 @@ g++ write_names.cpp -o write_names
 ## Version History
 * 0.1
     * Inital release
+
 
 ## License
 This project is licensed under the [MIT] License - see the LICENSE.md file for details.
